@@ -1,0 +1,31 @@
+{
+  "name": "webpack3demo",
+  "version": "1.0.0",
+  "description": "webpack3demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db-murphy/webpack3demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/db-murphy/webpack3demo/issues"
+  },
+  "homepage": "https://github.com/db-murphy/webpack3demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^3.12.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
